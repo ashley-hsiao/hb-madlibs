@@ -2,10 +2,13 @@
 <html>
 <head>
   <title>Madlibs</title>
+  <link rel="stylesheet" href="static/madlibs.css">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <form action="/madlib">
         <label>Enter a name: <input type="text" name="person"></label>
+        <br>
         <br>
         <label>Choose a color: <select name="color">
             <option value="crimson">Crimson</option>
@@ -16,12 +19,14 @@
             <option value="indigo">Indigo</option>
         </select></label>
         <br>
+        <br>
         Choose a noun: 
             <label><input type="radio" name="noun" value="car">Car</label>
             <label><input type="radio" name="noun" value="puppy">Puppy</label>
             <label><input type="radio" name="noun" value="firefighter">Fire Fighter</label>
             <label><input type="radio" name="noun" value="hackbrighter">Hackbrighter</label>
             <label><input type="radio" name="noun" value="fishstick">Fishstick</label>
+        <br>
         <br>
         <label>Choose an adjective: <select name="adjective">
             <option value="smelly">Smelly</option>
@@ -31,14 +36,16 @@
             <option value="witty">Witty</option>
         </select></label>
         <br>
+        <br>
         Choose a mood: (check all that apply)
             <label><input type="checkbox" name="moods" value="angry">Angry</label>
             <label><input type="checkbox" name="moods" value="sad">Sad</label>
             <label><input type="checkbox" name="moods" value="happy">Happy</label>
             <label><input type="checkbox" name="moods" value="wat">WAAT</label>
             <label><input type="checkbox" name="moods" value="robot">I don't feel anything</label>
+        <br>
         <br>    
-        <input type="submit">
+        <input type="submit" id="submitbutton">
     </form>    
 </body>
 </html>

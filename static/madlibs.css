@@ -1,0 +1,45 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #CC99FF;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#submitbutton {
+    border: 4px solid #a3ceda;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #FF99CC;
+    font-weight: bold;
+    color: #2d525d;
+}
+
+input[type=text] {
+    font-family: fantasy;
+    font-size: 20px;
+    font-style: italic;
+    background-color: aliceblue;
+}
+
+
+input[type=radio] {
+    border: 2px;
+    width: 5%;
+    height: 2em;
+}
+
+input[type=checkbox] {
+    border: 2px;
+    width: 5%;
+    height: 2em;
+}
+
+select {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+    background-color: #FF99CC;
+}

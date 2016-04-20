@@ -2,15 +2,18 @@
 <html>
 <head>
   <title>A Game</title>
+  <link rel="stylesheet" href="static/madlibs.css">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    Hi {{ person }}! I think you're {{ compliment }}!
+    <p>Hi {{ person }}! I think you're {{ compliment }}!</p>
     <form action="/game">
         Do you want to play a game? 
         <label><input type="radio" name="yesno" value="yes">YES!</label>
         <label><input type="radio" name="yesno" value="no">no.</label>
         <br>
-        <input type="submit">
+        <br>
+        <input type="submit" id="submitbutton">
     </form>    
 </body>
 </html>
