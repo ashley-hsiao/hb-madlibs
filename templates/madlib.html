@@ -4,6 +4,10 @@
   <title>Show Madlibs</title>
 </head>
 <body>
-    There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab. When {{ person }} went to pick it up, it burst into flames in a totally {{ adjective }} way.
+    There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab. When 
+    {% for mood in moods %}
+        "{{ mood }}",
+    {% endfor %}
+    {{ person }} went to pick it up, it burst into flames in a totally {{ adjective }} way.
 </body>
 </html>
